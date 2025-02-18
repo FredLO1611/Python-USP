@@ -1,4 +1,4 @@
-def deftones (x, y, z):
+def maximo (x, y, z):
   if x > y and x > z:
     return x
   elif y > x and y > z:
@@ -10,5 +10,4 @@ a = 13
 b = 43
 c = 33
 
-resul = deftones(a, b, c)
-print(resul)
+maximo(a, b, c)
